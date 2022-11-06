@@ -1,4 +1,4 @@
-#sorteando intes
+#sorteando itens
 from random import choice
 n1 = str(input('Digite o nome do primeiro aluno: '))
 n2 = str(input('Digite o nome do segundo aluno: '))
