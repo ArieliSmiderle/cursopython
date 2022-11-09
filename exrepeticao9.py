@@ -5,3 +5,5 @@ while n1 > n2:
     n2 = int(input('Digite o segundo número e ele tem que ser maior que o primeiro: '))
 for i in range (n1, n2, 1):
     print (i)
+soma = n1 + n2
+print ('A soma entre o número {} e o número {} é {}'.format(n1, n2, soma))
