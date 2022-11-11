@@ -1,15 +1,10 @@
-n = 1
-P = 0
-I = 0
-while n <= 10:
-    a = int(input())
-n = n + 1
-if a % 2 == 0:
-    a = P
-P = P + 1
-elif:
-a = I
-I = I + 1
-
-print("A qtd de números pares é: ", P)
-print("A qtd de números ímpares é: ", I)
+num = [[], []]
+valor = 0
+for c in range(1, 11):
+    valor = int(input(f'Digite o {c} valor: '))
+    if valor % 2 == 0:
+        num[0].append(valor)
+    else:
+        num[1].append(valor)
+print(f'Os valores pares foram: {num[0]}')
+print(f'Os valores ímpares foram: {num[1]}')
