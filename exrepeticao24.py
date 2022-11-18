@@ -16,9 +16,9 @@ while True:
 
     print("------------------------------------")
 
-    print("Total: R$ {:.2f} ".format(total))
-    dinheiro = float(input("Dinheiro: R$ "))
-    print("Troco: R$ {:.2f}".format(dinheiro - total))
+    print("O valor total da sua compra é: R$ {:.2f} ".format(total))
+    dinheiro = float(input("Digite a quantidade que será dada em dinheiro: R$ "))
+    print("O troco será: R$ {:.2f}".format(dinheiro - total))
 
     print("------------------------------------")
 
