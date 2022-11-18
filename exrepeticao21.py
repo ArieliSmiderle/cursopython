@@ -6,4 +6,4 @@ for i in range(cds):
     total = total + valor
     media = total / cds
     a = a + 1
-    print(f"O valor médio gasto nos cds foi R$ {media}")
+print(f"O valor médio gasto nos cds foi R$ {media}")
